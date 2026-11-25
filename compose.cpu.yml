@@ -1,0 +1,22 @@
+name: docr-preview
+services:
+  ocr:
+    image: docr-preview:cpu-auto
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+      target: cpu
+    environment:
+      OCR_API_KEYS: ${OCR_API_KEYS:?Set OCR_API_KEYS in .env or export it before starting}
+      OCR_DEVICE: cpu
+      OMP_NUM_THREADS: ${OCR_CPU_THREADS:-4}
+      MKL_NUM_THREADS: ${OCR_CPU_THREADS:-4}
+    ports: ["127.0.0.1:${OCR_API_PORT:-8000}:8000"]
+    volumes:
+      - docr-data:/opt/docr/data
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 35m
+volumes:
+  docr-data:

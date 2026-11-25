@@ -1,0 +1,5 @@
+# These standalone builds fetch their inputs from the pinned public release.
+**
+!Dockerfile
+!Dockerfile.cpu
+!Dockerfile.gpu

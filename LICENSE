@@ -1,0 +1,32 @@
+D-OCR Preview Docker — license scope
+Copyright (c) 2026 Hasin Manjare and D-OCR contributors.
+
+1. Deployment software
+   The Dockerfiles, Compose files, repository configuration and embedded
+   downloader code in this repository are licensed under the PolyForm
+   Noncommercial License 1.0.0.
+   Full terms: licenses/PolyForm-Noncommercial-1.0.0.txt
+   Required notice: Copyright (c) 2026 Hasin Manjare and D-OCR contributors.
+   https://polyformproject.org/licenses/noncommercial/1.0.0
+
+2. Original documentation
+   The README and other original documentation are licensed under Creative
+   Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+   Full terms: licenses/CC-BY-NC-4.0.txt
+   Attribution: D-OCR Preview Docker, Hasin Manjare and D-OCR contributors,
+   https://github.com/D-OCR/D-OCR-preview
+   https://creativecommons.org/licenses/by-nc/4.0/
+
+3. Downloaded artifacts and third-party material
+   This repository does not include model weights or the application runtime.
+   Building the images downloads them from D-OCR/D-OCR-preview on Hugging Face.
+   They retain the terms supplied with that release; this repository's license
+   does not relicense downloaded artifacts or third-party dependencies.
+   Upstream materials retain their original licenses and independently granted
+   rights. See THIRD_PARTY_NOTICES.md and the release's LICENSE and notices.
+   The full license texts reproduced in licenses/ are not relicensed here.
+
+Noncommercial use is permitted subject to the applicable license terms.
+Commercial use of D-OCR's licensed contributions requires separate written
+permission from the rights holder. Contact https://huggingface.co/HasinManjare.
+This is a noncommercial preview, not an OSI-open-source release.
