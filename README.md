@@ -1,3 +1,7 @@
+
+
+Uploading readme-demo.mp4…
+
 # D-OCR Preview Docker
 
 CPU and NVIDIA GPU Docker setups for D-OCR document recognition, layout detection and table extraction. Required weights and the compiled runtime download automatically from [Hugging Face](https://huggingface.co/D-OCR/D-OCR-preview) during the build.
