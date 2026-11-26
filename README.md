@@ -2,14 +2,6 @@
 
 CPU and NVIDIA GPU Docker setups for D-OCR document recognition, layout detection and table extraction. Required weights and the compiled runtime download automatically from [Hugging Face](https://huggingface.co/D-OCR/D-OCR-preview) during the build.
 
-## Video demo
-
-[![D-OCR animation showing a Bengali document, detected lines and recognized text](ocr-showcase/preview.jpg)]([ocr-showcase/readme-demo.mp4](https://github.com/D-OCR/D-OCR-preview/blob/main/ocr-showcase/readme-demo.mp4))
-
-**[Watch or download the video demo (MP4)]([ocr-showcase/readme-demo.mp4](https://github.com/D-OCR/D-OCR-preview/blob/main/ocr-showcase/readme-demo.mp4))** — 90 seconds, 1920 × 1080, approximately 3.7 MB. [Original export]([ocr-showcase/d-ocr-landscape-90s.mp4](https://github.com/D-OCR/D-OCR-preview/blob/main/ocr-showcase/readme-demo.mp4)).
-
-The animation reveals 73 layout regions and 87 recognized text lines from a saved Bengali document result. It replays existing output without running OCR again; animation speed does not represent inference speed. Click the preview to open the video.
-
 ## Quick start
 
 Requires Linux x86-64, Docker with BuildKit and Docker Compose v2. GPU use also requires a CUDA/BF16-capable NVIDIA GPU, a compatible driver and NVIDIA Container Toolkit. Allow plenty of free space on Docker's storage disk: model downloads alone are about 2.4 GiB, and dependencies, image layers and build caches require considerably more. CPU inference can be slow.
