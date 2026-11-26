@@ -4,9 +4,9 @@ CPU and NVIDIA GPU Docker setups for D-OCR document recognition, layout detectio
 
 ## Video demo
 
-[![D-OCR animation showing a Bengali document, detected lines and recognized text](ocr-showcase/preview.jpg)](ocr-showcase/d-ocr-landscape-90s.mp4)
+[![D-OCR animation showing a Bengali document, detected lines and recognized text](ocr-showcase/preview.jpg)](ocr-showcase/readme-demo.mp4)
 
-**[Watch or download the video demo (MP4)](ocr-showcase/d-ocr-landscape-90s.mp4)** — 90 seconds, 1920 × 1080, approximately 10 MB.
+**[Watch or download the video demo (MP4)](ocr-showcase/readme-demo.mp4)** — 90 seconds, 1920 × 1080, approximately 3.7 MB. [Original export](ocr-showcase/d-ocr-landscape-90s.mp4).
 
 The animation reveals 73 layout regions and 87 recognized text lines from a saved Bengali document result. It replays existing output without running OCR again; animation speed does not represent inference speed. Click the preview to open the video.
 

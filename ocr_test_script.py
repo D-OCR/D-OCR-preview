@@ -21,7 +21,7 @@ def read_api_key() -> str:
     
 def main() -> None:
         if len(sys.argv) < 2:
-            sys.exit("Usage: python ocr.py <image-or-pdf> [output.json]")
+            sys.exit("Usage: python ocr_test_script.py <image-or-pdf> [output.json]")
     
         file_path = Path(sys.argv[1])
         out_path = Path(sys.argv[2] if len(sys.argv) > 2 else "ocr-result.json")
